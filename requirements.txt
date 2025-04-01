@@ -1,2 +1,9 @@
-Flask
-yt-dlp
+python-telegram-bot[job-queue]
+python-telegram-bot
+asyncio
+pathlib
+aiohttp
+yt_dlp
+humanize
+requests
+schedule
