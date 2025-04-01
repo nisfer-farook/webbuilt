@@ -2,6 +2,8 @@ from flask import Flask, request, render_template_string, send_file, Response
 import yt_dlp
 import os
 import subprocess
+subprocess.run(["mkdir", "OneDrive"])
+subprocess.run(["mkdir", "downloads"])
 import time
 import threading
 from queue import Queue
@@ -9,8 +11,8 @@ from queue import Queue
 app = Flask(__name__)
 
 # Directory for storing downloads
-DOWNLOAD_DIR = "/home/ubuntu/telone/downloads"
-ONEDRIVE_DIR = "/home/ubuntu/OneDrive/shared"
+DOWNLOAD_DIR = "downloads"
+ONEDRIVE_DIR = "OneDrive"
 
 if not os.path.exists(DOWNLOAD_DIR):
     os.makedirs(DOWNLOAD_DIR)
