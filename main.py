@@ -3,7 +3,6 @@ API_TOKEN = "8152120810:AAGzw-FpuKgRBe9Cy0L_ePLde6TLYnLfjwE"
 ADMIN_IDs = ["1129730859", "7024110377"]
 import yt_dlp
 import subprocess
-subprocess.run(["apt", "install", "-y", "yt-dlp"])
 import aiohttp
 import asyncio
 import os
