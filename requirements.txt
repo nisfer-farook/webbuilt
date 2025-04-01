@@ -7,3 +7,4 @@ yt_dlp
 humanize
 requests
 schedule
+Flask
